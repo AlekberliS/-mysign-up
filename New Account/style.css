@@ -1,0 +1,189 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 560px;
+  margin: auto;
+  text-align: center;
+  border-radius: 22px;
+
+}
+
+.Createacc i {
+  margin-left: -240px;
+  color: rgb(43, 84, 196);
+  margin-top: 30px;
+
+}
+
+.card h2 {
+  color: rgb(48, 43, 196);
+}
+
+.card p {
+  color: darkgrey;
+  font-size: 12px;
+
+}
+
+body {
+  flex-direction: row;
+}
+
+input {
+  outline: none;
+}
+
+/*
+  #formvalidate i {
+      margin-left: -258px;
+      color: rgb(69, 197, 233);
+      margin-top: 30px;
+  }
+    input {
+      justify-content: center;
+      width: 240px;
+      height: 34px;
+      border-radius: 4px;
+      color: black;
+      border-color: darkgray;
+      border-style:   solid;
+      
+    }*/
+button {
+  width: 248px;
+  height: 36px;
+  cursor: pointer;
+  background: rgb(48, 43, 196);
+  ;
+  border: 0;
+  padding: 12px 15px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 2px;
+  padding-top: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.input-area input {
+  padding: 0 30px;
+  margin-left: -240px;
+  justify-content: center;
+  width: 180px;
+  height: 34px;
+  border-radius: 4px;
+  color: black;
+  border-color: darkgray;
+  border-style: solid;
+  margin-top: 18px;
+
+}
+
+.input-area i {
+  position: absolute;
+  color: rgb(69, 197, 233);
+  margin-left: -236px;
+  margin-top: 30px;
+  background-color: #fff;
+
+
+}
+
+.fordelete {
+  opacity: 0;
+}
+
+/*.create {
+  opacity: 0.6;
+}
+#formvalidate {
+  position: absolute;
+}*/
+
+input+label {
+  border: 1px solid white;
+  position: absolute;
+  transition: all 0.1s;
+  opacity: 1;
+  background: white;
+  font-size: 8px;
+  border-width: 0 2px 0 2px;
+
+  padding: 2 2px;
+  transform: translateY(calc(50% + 5px));
+  /* padding-left: -840px;
+     right: 230px ;*/
+  color: darkgray;
+}
+
+.lb1 {
+  right: 220px;
+  margin-top: 6px;
+}
+
+.lb2 {
+  right: 218px;
+  margin-top: 6px;
+}
+
+.lb3 {
+  right: 212px;
+  margin-top: 6px;
+}
+
+.lb4 {
+  right: 194px;
+  margin-top: 6px;
+}
+
+.lb5 {
+  right: 152px;
+  margin-top: 6px;
+}
+
+.label {
+  width: 90px;
+}
+
+#formvalidate .login-signup {
+  margin-top: 28px;
+  margin-bottom: 18px;
+}
+
+#formvalidate .login-signup h7 {
+  color: rgb(74, 70, 70);
+
+}
+
+.form {
+  margin-top: 0;
+}
+
+.field {
+  position: relative;
+}
+
+/*.forgot {
+ font-size: 12px;
+ padding-right: 40px;
+} */
+.reset-pass {
+
+  padding-left: 182px;
+  width: 100px;
+
+}
+
+.reset-pass a {
+  font-size: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
